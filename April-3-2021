@@ -1,0 +1,119 @@
+1110  cd abcpro
+ 1111  ls -ltr
+ 1112  git log
+ 1113  ls -ltr
+ 1114  ls -ltr
+ 1115  cd ../
+ 1116  rm -rf abcpro
+ 1117  ssh-keygen
+ 1118  ls -ltr ~/.ssh
+ 1119  cat ~/.ssh/id_rsa.pub
+ 1120  git clone git@github.com:devopsmar2021/abcpro.git
+ 1121  ls -ltr ~/.ssh
+ 1122  ls -ltr
+ 1123  cd abcpro
+ 1124  ls -ltr
+ 1125  ls -ltr
+ 1126  touch f3
+ 1127  touch f4
+ 1128  ls -ltr
+ 1129  vi f2
+ 1130  git status
+ 1131  git add . 
+ 1132  git status
+ 1133  git commit -m "updated f2 and created 2 files"
+ 1134  git log
+ 1135  git push 
+ 1136  cd ../
+ 1137  mkdir 123
+ 1138  cd 123
+ 1139  ls -ltr
+ 1140  git init 
+ 1141  ls -la
+ 1142  cat .git/config
+ 1143  cd ../abcpro
+ 1144  cat .git/config
+ 1145  cd ../
+ 1146  git clone git@github.com:devopsmar2021/abc123.git
+ 1147  cd abc123
+ 1148  ls -ltr 
+ 1149  ls -ltr .git
+ 1150  cat .git/config
+ 1151  git branch 
+ 1152  git branch -r
+ 1153  git branch -a
+ 1154  touch f1
+ 1155  git add .
+ 1156  git commit -m "create f1"
+ 1157  git branch 
+ 1158  git branch -r
+ 1159  git push -u origin master
+ 1160  git branch -r
+ 1161  git branch -a
+ 1162  cat .git/config
+ 1163  git branch -a
+ 1164  ls -ltr
+ 1165  git branch -a
+ 1166  cat .git/config
+ 1167  pwd
+ 1168  git branch 
+ 1169  git pull
+ 1170  git branch 
+ 1171  git branch -r
+ 1172  git branch -a
+ 1173  ls -ltr
+ 1174  git checkout bug100
+ 1175  git branch -a
+ 1176  cat .git/config
+ 1177  ls -ltr
+ 1178  touch f2
+ 1179  touch f3
+ 1180  ls -ltr
+ 1181  git branch -a
+ 1182  ls -ltr
+ 1183  git add .
+ 1184  git commit -m "bug100 is fixed"
+ 1185  git log
+ 1186  git push
+ 1187  git branch -a
+ 1188  cat .git/config
+ 1189  git checkout master
+ 1190  git branch -a
+ 1191  git pull
+ 1192  ls -ltr
+ 1193  git branch -a
+ 1194  cat .git/config
+ 1195  git checkout bug101
+ 1196  cat .git/config
+ 1197  git branch -a
+ 1198  git checkout master
+ 1199  git branch -a
+ 1200  git branch bug102
+ 1201  git branch -a
+ 1202  git checkout bug102
+ 1203  git branch -a
+ 1204  cat .git/config
+ 1205  ls -ltr
+ 1206  vi f3
+ 1207  git add .
+ 1208  git commit -m "updated f3"
+ 1209  git log
+ 1210  git push
+ 1211  git push -u origin bug102
+ 1212  git branch -a
+ 1213  git checkout master
+ 1214  git branch -a
+ 1215  git merge bug102
+ 1216  git push
+ 1217  git checkout big101
+ 1218  git checkout bug101
+ 1219  ls -ltr
+ 1220  touch f4
+ 1221  git add .
+ 1222  git commit -m "created f4"
+ 1223  git push
+ 1224  git branch -r
+ 1225  git pull
+ 1226  git branch -a
+ 1227  history
+ 1228  history -100
